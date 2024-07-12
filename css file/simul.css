@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+  body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.986);
+    background-image: url("img2.jpeg");
+    background-position: center;
+    background-size: cover;
+  }
+  .button{
+    height: 45px;
+    margin: 35px 0;
+  }
+ .button{
+    height: 3%;
+    width: 5%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+     align-items:baseline ;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+ }
